@@ -1,0 +1,17 @@
+# THE PLAN
+
+1_ GOAL : e-learning platform with full feathures
+2_ SUB GOALS:
+    - A home page that will include a hero section then a small section for categories, then best courses, and finnaly a footer
+    - A login/register page if the user isn't authenticated
+    - When he click on a categorie he will be lead into a page full of courses in that categorie
+    - A Detail course page that will have the course details
+    - Finnaly a course page that will have the course and it's own resource
+    - A user dashboard to track his progress and stuff
+    - A admin dashboard to see each user progress with hours spend on the app and if he want to add a courses
+3_TECHNOLOGIES:
+    - React js
+    - Node js /express js
+    - MongoDB
+    - Tailwind css
+    - Chatgpt/claudeAi
