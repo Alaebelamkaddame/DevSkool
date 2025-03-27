@@ -13,7 +13,7 @@ function NavBar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li className='hover:text-orange-600 transition duration-300'>
-                    <Link to="/Categorie">Catégorie</Link>
+                    <Link to="/Courses">Courses</Link>
                 </li>
                 <li className='hover:text-orange-600 transition duration-300'>
                     <Link to="/ContactUs">Contact Us</Link>

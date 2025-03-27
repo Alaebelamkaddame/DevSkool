@@ -15,7 +15,7 @@ function HomePage() {
             and a vibrant community to accelerate your tech career.<br/> Whether you're a beginner or an advanced developer,<br/>
             we’ve got the resources to help you build, innovate, and succeed.</p>
           <div>
-            <button className='px-4 py-2 rounded-full font-bold text-white bg-black hover:bg-orange-600 hover:border-none transition duration-300'>
+            <button className='px-4 py-3 rounded-full font-bold text-white bg-black hover:bg-orange-600 hover:border-none transition duration-300'>
                 Join Us
             </button>
             <button className="ml-2 px-4 py-2 rounded-full font-bold text-black bg-white border-double border-4 border-orange-600  hover:bg-orange-600 hover:text-white hover:border-orange-600 transition duration-300">
@@ -94,20 +94,24 @@ function HomePage() {
             </button>
         </div>
       </section>
-      <section id='Best Categorie'>
+      <section id='Best Categorie' className='pb-10'>
         <h1 className='font-extrabold text-6xl py-20'>Our <span className='text-orange-600'>Catégories</span></h1>
         <div className='grid grid-rows-2 grid-cols-2 gap-4'>
-            <div className='rounded-md bg-orange-600 text-white p-7'>
-              <br />
-              <span></span>
-              <h3 className='font-extrabold text-xl'>Web Developpement</h3>
-              <p className='font-bold'>This Course is for student with little to no english</p>
-              <button className="ml-2 my-10 px-2 py-1 rounded-full font-bold text-black bg-white border-double border-4 border-orange-600
-                transition duration-300 cursor-pointer hover:scale-105">+4 Courses</button>
-            </div>
+            {Array.from({length: 4}, (_, i) => (
+              <div className='rounded-md bg-orange-600 text-white p-7'>
+                <br />
+                <span></span>
+                <h3 className='font-extrabold text-5xl pb-5 '>Web <br/>Developpement</h3>
+                <p className='font-bold text-2xl'>This Course is for student with little to no english</p>
+                <button className="ml-2 my-10 px-3 py-3 rounded-full font-bold text-black bg-white border-double border-4 border-orange-600
+                  transition duration-300 cursor-pointer hover:scale-110">+4 Courses</button>
+              </div>
+            ))}
         </div>
           {/*  */}
       </section>
+      <section id='Why Us'></section>
+      <section id="Q&A"></section>
     </>
   )
 }
